@@ -1,0 +1,193 @@
+---
+title: "Açıklanabilir Yapay Zeka"
+title-slide-attributes:
+    data-background-image: xai.jpeg
+    data-background-size: 15%
+    data-background-position: 0% 40%
+    data-background-opacity: "0.5"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    footer: "M.ÇAVUŞ - Açıklanabilir Yapay Zeka @Anadolu Üniversitesi Eğitim Fakültesi - 28 Aralık 2022"
+editor: visual
+author: "Mustafa ÇAVUŞ"
+date: "Eskişehir Teknik Üniversitesi"
+---
+
+## 
+
+![](ucgen.png)
+
+
+## Makine Öğrenmesi Modeli
+
+![](4.png){fig-align="center"}
+
+
+
+## Model Yapıları
+
+![](2.png){fig-align="center"}
+
+## Banka kredisi örneği
+
+![](bank.png)
+
+
+## Kalp krizi riski örneği
+
+![](hastane.png)
+
+
+## Kara-Kutu Model Yapısının Kısıtlılıkları
+
+:::: {.columns}
+
+::: {.column width="35%"}
+* Açıklanamazlık
+* Hesap verememek
+* Yanlılık (*cinsiyet ayrımcılığı, ırkçılık*)
+:::
+
+::: {.column width="38%"}
+![](mat.jpeg)
+:::
+
+::: {.column width="27%"}
+![](codedbias.jpg)
+:::
+::::
+
+
+
+
+
+## Açıklanabilir Yapay Zeka
+
+:::: {.columns style='display: flex !important; height: 90%;'}
+
+::: {.column width="35%"}
+![](xai.jpeg)
+:::
+::: {.column width="55%"  style='display: flex; justify-content: center; align-items: center;'}
+**Explainable, Interpretable, Responsible, Trusthworthy** AI, kara-kutu makine öğrenmesi model çıktılarının (tahminlerin) nasıl oluştuğunu anlayabilmek için uğraş verilen süreç ve kullanılan yöntemlerdir. 
+
+:::
+::::
+
+## AYZ Araçları
+
+![](7.png){fig-align="center"}
+
+## AYZ Araçları
+
+::: {layout="[[-1], [1], [-1]]"}
+
+![](shap.png)
+
+:::
+
+::: aside
+<https://shap.readthedocs.io/en/latest/>
+:::
+
+## AI-Education
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](xaied.png)
+:::
+
+::: {.column width="60%"}
+AIEd, kısaca yapay zeka çözümlerinin öğrenme ve öğretme sürecinde kullanımı olarak tanımlanabilir. 
+:::
+
+::::
+
+
+
+
+
+## AI-Education
+
+1. **Öğrenen odaklı AIEd**: Zeki/Kişiselleştirilmiş/Farklılaştırılmış öğretici sistemler
+  * Öğrencinin ihtiyaçlarına göre öğrenme materyallerinin düzenlenmesi
+  * Öğrencinin güçlü, zayıf veya eksik yönlerinin tespiti
+  * Otomatik geri bildirim sağlanması^[T. Baker, L. Smith
+Educ-AI-tion rebooted? Exploring the future of artificial intelligence in schools and colleges
+Nesta Foundation (2019)
+Retrieved from
+<https://media.nesta.org.uk/documents/Future_of_AI_and_education_v5_WEB.pdf>]
+
+
+## AI-Education
+2. **Öğretmen odaklı AIEd**
+
+* Öğretmenlerin iş yükünü azaltmaya, 
+* Öğrenciler hakkında içgörü elde etmeye, 
+* Öğretme aktivitelerini yenilemeye yardımcı olur.
+
+
+## AI-Education
+3. **Sistem odaklı AIEd**: Yönetici ve karar vericilere öğretim sistemi hakkında kararlar alabilmesine yardımcı olur.
+
+
+## XAI-Ed
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](xai_ed_paper.png)
+:::
+
+::: {.column width="40%"}
+**Sorunlar:**
+
+* İhtiyaç olmayan durumlarda karmaşık modellerin kullanımı
+* Yanlış açıklamalar
+* Eksik açıklamalar
+* Yanlış tespitler
+:::
+
+::::
+
+## XAI neler sağlar?
+
+* **Kara-kutu modelin iç yapısını anlaşılabilir hale getirir.**
+
+* Modele olan **güveni arttırır**.
+* Yasal zorunlulukların* yerine getirilmesini sağlar.
+* Modeli **betimlemek** için kullanılır.
+* Modelin öğrendiği olası **yanlış ilişkilerin tespit edilmesini** sağlar.
+* Model **performansını arttırmak** için kullanılabilir.
+* Alan bilgisi ile **modelin doğruluğu kontrol** edilebilir.
+
+::: aside
+*Ülkemizde henüz bu alanda yasal bir sınırlama bulunmamaktadır.
+:::
+
+## Kaynak Önerileri
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![<https://ema.drwhy.ai/>](ema.png)
+:::
+
+::: {.column width="33%"}
+![<https://betaandbit.github.io/RML_TR/>](rml_tr.png)
+:::
+
+::::
+
+
+
+## İletişim
+
+Sunuma ve iletişim bilgilerine bağlantı ya da QR-kod üzerinden ulaşabilirsiniz:
+
+<https://linktr.ee/mustafacavus>
+
+![](linktree_qr.png){fig-align="left"}
