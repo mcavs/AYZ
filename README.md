@@ -2,7 +2,7 @@
 
 28 Aralık 2022 tarihinde Anadolu Üniversitesi Eğitim Fakültesi seminerleri kapsamında gerçekleştirilen "Açıklanabilir Yapay Zeka" sunum materyallerini içerir.
 
-## Seminer süresince kullanılan sunumu nasıl indirebilirim?
+## Sunumu nasıl indirebilirim?
 
 1. Yukarıda yer alan yeşil renkli `<>Code` butonuna tıklayınız. 
 
